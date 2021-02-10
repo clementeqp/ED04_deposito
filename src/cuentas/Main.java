@@ -9,11 +9,12 @@ public class Main {
         operativa_cuenta(0);
     }
 
-    /**Se ha usado el parametro cantidad para ingresar
+    /**
      * 
      * Metodo que realiza las operaciones de ingresar y 
      * retirar sobre los objetos de la clase cuenta
      * @param cantidad recoge la cantida a ingresar
+     * Se ha usado el parametro cantidad para ingresar.
      */
 	public static void operativa_cuenta(float cantidad) {
 		cantidad = 2300;

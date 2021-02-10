@@ -116,6 +116,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Metodo para acceder al valor de tipoInteres
 	 * 
 	 * @return the tipoInteres
 	 */
@@ -124,6 +125,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Metodo para setear el valor de tipoInteres
 	 * @param tipoInteres the tipoInteres to set
 	 */
 	public void setTipoInteres(double tipoInteres) {
