@@ -1,5 +1,9 @@
 package cuentas;
-
+/**
+ * 
+ * @author Clemente Quintana Pozo
+ *
+ */
 public class CCuenta {
 
 	/**

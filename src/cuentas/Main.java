@@ -1,12 +1,22 @@
 package cuentas;
 
 public class Main {
-
+	/**
+	 * Metodo Principal , ejecuta el programa
+	 * @param args
+	 */
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
 
+    /**Se ha usado el parametro cantidad para ingresar
+     * 
+     * Metodo que realiza las operaciones de ingresar y 
+     * retirar sobre los objetos de la clase cuenta
+     * @param cantidad recoge la cantida a ingresar
+     */
 	public static void operativa_cuenta(float cantidad) {
+		cantidad = 2300;
 		CCuenta cuenta1;
         double saldoActual;
 
@@ -15,7 +25,7 @@ public class Main {
         System.out.println("El saldo actual es "+ saldoActual );
 
         try {
-            cuenta1.retirar(2300);
+            cuenta1.retirar(cantidad);
             System.out.println("El saldo actual es "+ cuenta1.estado() );
         } catch (Exception e) {
             System.out.print("Fallo al retirar");
